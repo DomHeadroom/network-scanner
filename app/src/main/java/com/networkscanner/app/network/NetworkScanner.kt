@@ -749,7 +749,7 @@ class NetworkScanner(private val context: Context) {
                     updateProgress(
                         ScanPhase.PING_SWEEP,
                         percent,
-                        "Scanned $progress/$total IPs",
+                        "Scanned $progress/$total addresses",
                         ip
                     )
                 }
