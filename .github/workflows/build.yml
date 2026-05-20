@@ -27,9 +27,18 @@ jobs:
       - name: Run lint
         run: ./gradlew lint
 
+      - name: Decode keystore
+        if: startsWith(github.ref, 'refs/tags/')
+        run: echo "${{ secrets.KEYSTORE_FILE }}" | base64 -d > keystore.jks
+
       - name: Build release APK
         if: startsWith(github.ref, 'refs/tags/')
         run: ./gradlew assembleRelease
+        env:
+          KEYSTORE_PATH: ${{ github.workspace }}/keystore.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
 
       - name: Upload APK
         if: startsWith(github.ref, 'refs/tags/')

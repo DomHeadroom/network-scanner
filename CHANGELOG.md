@@ -1,3 +1,14 @@
+## [1.1.2] - 2026-05-20
+
+### Added
+- Network interface selection — switch between Wi-Fi, Ethernet, and VPN interfaces to scan the right network
+
+### Improved
+- Better smartphone detection on home networks: improved heuristics handle randomized MAC addresses, TTL fingerprinting, and ghost-device fallback for phones that evade all other signals
+
+### Fixed
+- Scan progress label wording (#13)
+
 ## [1.1.1] - 2026-04-13
 
 ### Improved
