@@ -24,6 +24,7 @@ display_name() {
         uk) echo "Українська" ;;
         ar) echo "العربية"    ;;
         zh-rCN) echo "中文 (中国)" ;;
+        it) echo "Italiano"   ;;
         *)  echo "$1"         ;;
     esac
 }
