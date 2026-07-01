@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Menu items -->
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_refresh">Aggiorna</string>
+    <string name="action_theme">Cambia Tema</string>
+
+    <!-- Scan states -->
+    <string name="scanning">Scansione della rete…</string>
+    <string name="scan_complete">Scansione completata</string>
+    <string name="devices_found">%d dispositivi trovati</string>
+    <string name="pull_to_refresh">Scorri verso il basso per aggiornare</string>
+
+    <!-- Initial state -->
+    <string name="initial_scan_title">Scansiona la tua Rete</string>
+    <string name="initial_scan_message">Scopri tutti i dispositivi connessi alla tua rete WiFi</string>
+    <string name="action_scan_network">Scansiona Rete</string>
+
+    <!-- Device sections -->
+    <string name="section_active">Dispositivi Attivi</string>
+    <string name="section_offline">Dispositivi Offline</string>
+
+    <!-- Device info -->
+    <string name="unknown_device">Dispositivo Sconosciuto</string>
+    <string name="unknown_manufacturer">Produttore Sconosciuto</string>
+    <string name="ip_address">IP: %s</string>
+    <string name="mac_address">MAC: %s</string>
+    <string name="hostname">Nome Host: %s</string>
+    <string name="last_seen">Ultimo rilevamento: %s</string>
+    <string name="this_device">Questo Dispositivo</string>
+
+    <!-- Empty states -->
+    <string name="no_devices_title">Nessun Dispositivo Trovato</string>
+    <string name="no_devices_message">Assicurati di essere connesso a una rete WiFi e riprova la scansione.</string>
+    <string name="no_wifi_title">Nessuna Connessione di Rete</string>
+    <string name="no_wifi_message">Nessuna interfaccia di rete attiva trovata. Connettiti a una rete e riprova.</string>
+    <string name="no_active_interfaces">Nessuna interfaccia attiva</string>
+
+    <!-- Interface Types -->
+    <string name="interface_type_wifi">Wi-Fi</string>
+    <string name="interface_type_ethernet">Ethernet</string>
+    <string name="interface_type_vpn">VPN</string>
+    <string name="interface_type_cellular">Cellulare</string>
+    <string name="interface_type_network">Rete</string>
+    
+    <!-- Errors -->
+    <string name="error_scan_failed">Scansione fallita: %s</string>
+    <string name="error_permission_denied">Permesso negato</string>
+    <string name="error_no_network">Nessuna connessione di rete</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_title">Migliora Scansione</string>
+    <string name="permission_location_message">L\'autorizzazione di posizione è necessaria per accedere alle informazioni WiFi per la scansione della rete.</string>
+    <string name="permission_optional_message">Concedere l\'autorizzazione di posizione può aiutare a scoprire più dispositivi e mostrare informazioni accurate sulla rete. È opzionale: l\'app funzionerà comunque.</string>
+    <string name="permission_nearby_title">Autorizzazione Dispositivi Vicini</string>
+    <string name="permission_nearby_message">Questa autorizzazione consente all\'app di scoprire dispositivi vicini sulla tua rete.</string>
+    <string name="grant_permission">Concedi Autorizzazione</string>
+    <string name="skip">Salta</string>
+
+    <!-- Theme -->
+    <string name="theme_light">Chiaro</string>
+    <string name="theme_dark">Scuro</string>
+    <string name="theme_system">Sistema</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_device_icon">Icona del tipo di dispositivo</string>
+    <string name="cd_scan_button">Avvia scansione rete</string>
+    <string name="cd_device_status">Indicatore stato dispositivo</string>
+
+    <!-- Device Detail Screen -->
+    <string name="device_details">Dettagli Dispositivo</string>
+    <string name="basic_info">Informazioni di Base</string>
+    <string name="network_info">Informazioni di Rete</string>
+    <string name="deep_scan_results">Risultati Scansione Approfondita</string>
+    <string name="open_ports">Porte Aperte</string>
+
+    <!-- Labels -->
+    <string name="label_ip_address">Indirizzo IP</string>
+    <string name="label_mac_address">Indirizzo MAC</string>
+    <string name="label_vendor">Produttore</string>
+    <string name="label_latency">Latenza</string>
+    <string name="label_hostname">Nome Host</string>
+    <string name="label_services">Servizi</string>
+    <string name="label_discovered_via">Scoperto tramite</string>
+    <string name="label_detected_os">SO rilevato</string>
+    <string name="label_scan_duration">Durata Scansione</string>
+    <string name="device_info">Info Dispositivo</string>
+    <string name="label_friendly_name">Nome Descrittivo</string>
+    <string name="label_model">Modello</string>
+
+    <!-- Deep Scan States -->
+    <string name="tap_to_deep_scan">Tocca per avviare una scansione approfondita</string>
+    <string name="start_deep_scan">Avvia Scansione Approfondita</string>
+    <string name="no_open_ports">Nessuna porta aperta trovata</string>
+    <string name="scan_failed">Scansione fallita</string>
+    <string name="device_offline">Il dispositivo è offline</string>
+
+    <!-- Actions -->
+    <string name="action_cancel">Annulla</string>
+    <string name="action_clear">Cancella</string>
+
+    <!-- Status -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+
+    <!-- Format strings -->
+    <string name="latency_ms">%dms</string>
+    <string name="confidence_percent">%d%% confidenza</string>
+    <string name="duration_seconds">%.1fs</string>
+    <string name="action_retry">Riprova</string>
+    <string name="interface_option_format">%1$s (%2$s) - %3$s</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Impostazioni</string>
+
+    <!-- Preference Categories -->
+    <string name="pref_category_appearance">Aspetto</string>
+    <string name="pref_category_scanning">Scansione</string>
+    <string name="pref_category_data">Dati</string>
+    <string name="pref_category_about">Informazioni</string>
+
+    <!-- Appearance Preferences -->
+    <string name="pref_theme_title">Tema</string>
+    <string name="pref_language_title">Lingua</string>
+    <string name="language_system_default">Impostazione di sistema</string>
+    <string name="pref_dynamic_colors_title">Colori Dinamici</string>
+    <string name="pref_dynamic_colors_summary">Usa i colori dello sfondo (Android 12+)</string>
+
+    <!-- Scanning Preferences -->
+    <string name="pref_auto_scan_title">Scansione automatica all\'avvio</string>
+    <string name="pref_auto_scan_summary">Avvia automaticamente la scansione all\'apertura dell\'app</string>
+    <string name="pref_scan_timeout_title">Timeout scansione</string>
+
+    <!-- Timeout options -->
+    <string name="timeout_fast">Veloce (3 secondi)</string>
+    <string name="timeout_normal">Normale (5 secondi)</string>
+    <string name="timeout_thorough">Approfondita (10 secondi)</string>
+
+    <!-- Data Preferences -->
+    <string name="pref_clear_cache_title">Cancella Cache</string>
+    <string name="pref_clear_cache_summary">Cancella dati di scansione temporanei</string>
+    <string name="pref_clear_history_title">Cancella Cronologia Dispositivi</string>
+    <string name="pref_clear_history_summary">Rimuovi tutte le informazioni salvate sui dispositivi</string>
+
+    <!-- About Preferences -->
+    <string name="pref_version_title">Versione</string>
+    <string name="pref_about_title">Informazioni su Network Scanner</string>
+    <string name="pref_about_summary">Informazioni sull\'app e crediti</string>
+    <string name="pref_privacy_title">Informativa sulla Privacy</string>
+    <string name="pref_privacy_summary">Come vengono gestiti i tuoi dati</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_clear_cache_title">Cancellare la Cache?</string>
+    <string name="dialog_clear_cache_message">Verranno cancellati tutti i dati di scansione temporanei. La cronologia dei dispositivi sarà preservata.</string>
+    <string name="dialog_clear_history_title">Cancellare la Cronologia?</string>
+    <string name="dialog_clear_history_message">Verranno rimosse tutte le informazioni salvate sui dispositivi, inclusi i nomi personalizzati. Questa azione è irreversibile.</string>
+    <string name="dialog_about_title">Informazioni su Network Scanner</string>
+    <string name="dialog_about_message" formatted="false">Network Scanner è un potente strumento per scoprire e analizzare i dispositivi sulla tua rete locale.\n\nSviluppato con cura per la tua privacy. Tutte le scansioni avvengono localmente sul tuo dispositivo.\n\n⚠️ Nota: il rilevamento dei dispositivi e la scansione delle porte non sono precisi al 100%. I risultati possono variare in base alle condizioni della rete e alle configurazioni dei dispositivi.\n\nVersione 1.0.0 | Licenza GPL-3.0</string>
+    <string name="view_on_github">Vedi su GitHub</string>
+    <string name="github_url">https://github.com/usamaiqb/network-scanner</string>
+    <string name="deep_scan_disclaimer">Il rilevamento di porte e SO sono stime e potrebbero non essere completamente accurati</string>
+    <string name="dialog_privacy_title">Informativa sulla Privacy</string>
+    <string name="dialog_privacy_message">Network Scanner rispetta la tua privacy:\n\n• Nessuna raccolta dati: tutti i risultati della scansione rimangono sul tuo dispositivo\n• Nessuna pubblicità o tracciamento\n• Nessun permesso Internet richiesto per la scansione\n\nL\'autorizzazione di posizione viene utilizzata solo per accedere alle informazioni WiFi come richiesto da Android, non per tracciare la tua posizione.</string>
+    <string name="dialog_theme_restart_title">Tema Cambiato</string>
+    <string name="dialog_theme_restart_message">Le modifiche ai colori dinamici avranno effetto completo dopo il riavvio dell\'app.</string>
+
+    <!-- Toast Messages -->
+    <string name="cache_cleared">Cache cancellata con successo</string>
+    <string name="history_cleared">Cronologia dispositivi cancellata</string>
+
+    <!-- Accessibility - Content Descriptions -->
+    <string name="cd_settings_button">Apri impostazioni</string>
+    <string name="cd_theme_button">Cambia tema</string>
+    <string name="cd_refresh_button">Aggiorna elenco dispositivi</string>
+    <string name="cd_device_online">Il dispositivo è online</string>
+    <string name="cd_device_offline">Il dispositivo è offline</string>
+    <string name="cd_navigate_back">Torna indietro</string>
+    <string name="cd_start_deep_scan">Avvia scansione approfondita per questo dispositivo</string>
+    <string name="cd_cancel_scan">Annulla scansione in corso</string>
+    <string name="cd_empty_state_icon">Illustrazione nessun dispositivo</string>
+    <string name="cd_network_info">Informazioni di rete</string>
+    <string name="cd_interface_selector">Seleziona interfaccia di rete</string>
+    <string name="cd_port_status">Porta %1$d è %2$s</string>
+
+    <!-- Device list accessibility -->
+    <string name="cd_device_item">%1$s, %2$s, IP %3$s</string>
+    <string name="cd_device_current">Questo è il tuo dispositivo attuale</string>
+    <string name="cd_section_header">Sezione %1$s con %2$d dispositivi</string>
+
+    <!-- Deep scan progress -->
+    <string name="deep_scan_port_progress">%1$d/%2$d porte</string>
+    <string name="deep_scan_open_count">%d aperte</string>
+
+    <!-- Custom Device Names -->
+    <string name="edit_device_name">Modifica Nome Dispositivo</string>
+    <string name="edit_device_name_hint">Assegna un nome personalizzato per identificare facilmente il dispositivo</string>
+    <string name="device_name">Nome Dispositivo</string>
+    <string name="action_save">Salva</string>
+
+    <!-- Custom Ports -->
+    <string name="custom_ports">Porte Personalizzate</string>
+    <string name="add_port">Aggiungi Porta</string>
+    <string name="add_custom_port">Aggiungi Porta Personalizzata</string>
+    <string name="port_number">Numero Porta</string>
+    <string name="service_name">Nome Servizio</string>
+    <string name="action_add">Aggiungi</string>
+    <string name="delete_port">Elimina porta</string>
+    <string name="no_custom_ports">Nessuna porta personalizzata configurata</string>
+    <string name="tap_add_to_create">Tocca + per aggiungere porte personalizzate da scansionare</string>
+
+    <!-- Full Port Scan -->
+    <string name="full_scan">Scansione Completa</string>
+    <string name="full_port_scan">Scansione Porte Completa</string>
+    <string name="full_scan_warning">Verranno scansionate tutte le 65.535 porte su questo dispositivo. Potrebbero essere necessari alcuni minuti e generare traffico di rete significativo.</string>
+    <string name="full_scan_details">• Tempo di scansione: 1–3 minuti\n• Operazione intensiva per la rete\n• Potrebbe essere rilevata da sistemi di sicurezza</string>
+    <string name="action_start">Avvia</string>
+
+    <!-- Settings - Custom Ports -->
+    <string name="pref_custom_ports_title">Porte Personalizzate</string>
+    <string name="pref_custom_ports_summary">Gestisci le porte da scansionare durante la scansione approfondita</string>
+
+    <!-- Device Icon Selection -->
+    <string name="choose_device_icon">Scegli Icona Dispositivo</string>
+
+    <!-- Network scanner progress -->
+    <string name="checking_network_connectivity">Verifica connessione di rete…</string>
+    <string name="classifying_devices">Classificazione dispositivi</string>
+    <string name="identifying_devices">Identificazione dispositivi…</string>
+    <string name="resolving_netbios_names">Risoluzione nomi NetBIOS</string>
+    <string name="finding_upnp_devices">Ricerca dispositivi UPnP…</string>
+    <string name="discovering_services">Rilevamento servizi…</string>
+    <string name="getting_device_information">Acquisizione informazioni dispositivo…</string>
+    <string name="scanning_network">Scansione della rete…</string>
+    <string name="reading_arp_cache">Lettura cache ARP…</string>
+    <string name="analyzing_port">Analisi porta %1$d…</string>
+    <string name="scanning_ports">Scansione porte…</string>
+    <string name="scanning_port">Scansione porta %1$d…</string>
+    <string name="scanned_addresses_progress">Scansionati %1$d/%2$d indirizzi</string>
+    <string name="detecting_os">Rilevamento SO…</string>
+
+</resources>
