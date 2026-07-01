@@ -1,6 +1,11 @@
 name: Translation check
 
 on:
+  pull_request:
+    paths:
+      - 'app/src/main/res/values*/strings.xml'
+      - 'scripts/translation-status.sh'
+      - 'README.md'
   push:
     branches: [ main ]
     paths:
